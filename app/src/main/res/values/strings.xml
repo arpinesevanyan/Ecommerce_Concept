@@ -1,0 +1,9 @@
+<resources>
+
+    <!-- Ecommerce concept-->
+    <string name="app_name">Ecommerce Concept</string>
+    <string name="ecommerce_c">Ecommerce \nConcept</string>
+
+    <!--End Ecommerce concept-->
+
+</resources>

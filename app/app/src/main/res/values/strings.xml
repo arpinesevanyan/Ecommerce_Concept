@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Ecommerce concept-->
+
+    <string name="ecommerce_c">Ecommerce \nConcept</string>
+
+    <!--End Ecommerce concept-->
+
+
+</resources>

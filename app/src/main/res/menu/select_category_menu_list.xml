@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/phones"
+        android:icon="@drawable/icon_phone"
+        android:iconTint="@color/white"
+        android:title="Phones" />
+
+    <item
+        android:id="@+id/computers"
+        android:icon="@drawable/icon_workstation"
+        android:iconTint="@color/white"
+        android:title="Computers" />
+    <item
+        android:id="@+id/health"
+        android:icon="@drawable/icon_health"
+        android:iconTint="@color/white"
+        android:title="Health" />
+    <item
+        android:id="@+id/books"
+        android:icon="@drawable/icon_health"
+        android:iconTint="@color/white"
+        android:title="Books" />
+    <item
+        android:id="@+id/games"
+        android:icon="@drawable/icon_phone"
+        android:iconTint="@color/white"
+        android:title="Games" />
+
+</menu>

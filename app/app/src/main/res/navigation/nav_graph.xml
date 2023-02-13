@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/guardianNewsFragment">
+
+    <fragment
+        android:id="@+id/guardianNewsFragment"
+        android:name="com.codeschool.myapplication.ui.guardian.news.GuardianNewsFragment"
+        android:label="fragment_guardianNews"
+        tools:layout="@layout/fragment_guardian_news">
+
+    </fragment>
+    <action
+        android:id="@+id/action_guardianNewsFragment_to_detailsFragment"
+        app:destination="@id/detailsFragment" />
+
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.codeschool.myapplication.ui.guardian.details.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details">
+        <argument
+            android:name="newsItem"
+            app:argType="com.codeschool.guardian.news.data.NewsItemDto"
+            app:nullable="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.codeschool.myapplication.ui.guardian.favorite.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" />
+
+</navigation>
